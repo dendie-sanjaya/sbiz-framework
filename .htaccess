@@ -1,4 +1,22 @@
 RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
+
+Options -Indexes
+
+Header unset X-Frame-Options
+
+ServerSignature Off
+
+ErrorDocument 403 https://sbiz.xyz
+ErrorDocument 404 https://sbiz.xyz
+ErrorDocument 500 https://sbiz.xyz
+ErrorDocument 501 https://sbiz.xyz
+ErrorDocument 502 https://sbiz.xyz
+ErrorDocument 503 https://sbiz.xyz
+
+
+
