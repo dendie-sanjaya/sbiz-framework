@@ -15,13 +15,13 @@ if (!class_exists('language')) {
 	class language 
 	{		
 
-		public function set($str='id')
+		public function static set($str='id')
 		{
 			$_SESSION['lang']['set'] = $str;
 			return $rst;
 		}
 
-		public function get($fileName,$varName)
+		public function static get($fileName,$varName)
 		{ 
 			$langSet = isset($_SESSION['lang']['set']) ? $_SESSION['lang']['set'] : 'id';
 
@@ -32,7 +32,7 @@ if (!class_exists('language')) {
 			return $rst;
 		}	
 
-		public function status() {
+		public function static status() {
 			$rst = isset($_SESSION['lang']['set']) ? $_SESSION['lang']['set'] : 'id';
 			return $rst;
 		}	 		
