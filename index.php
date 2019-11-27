@@ -11,7 +11,7 @@
 	include_once 'sbiz/lib/language.class.php';
 	include_once 'sbiz/lib/auth.class.php';
 
-	auth::token();
+	//auth::token();
 
 	include_once 'sbiz/config/route.php'; 
 ?>
