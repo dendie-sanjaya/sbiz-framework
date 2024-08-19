@@ -52,8 +52,30 @@ so  you dont need wasting time for read documentation or learning someting new f
 
 
 
-## Documentation 
+## Simple Guide 
 URL : https://dendieisme.blogspot.com/2019/11/sbiz-php-mvc-framework.html
+
+**1. Create URL Config**
+
+![Sampe Get API](./asset-readme/1.png)
+
+**2. Create URL route**
+
+![Sampe Get API](./asset-readme/2.png)
+
+Route Pattern : "{{application_name_folder}}/{{moudle_name}}/{{sub_module_name}}"
+
+**3. Create Multiple Languange**
+
+![Sampe Get API](./asset-readme/3.png)
+
+**4. Lib Global**
+
+![Sampe Get API](./asset-readme/4.png)
+
+**5 Application**
+
+![Sampe Get API](./asset-readme/5.png)
 
 ## Contact
 
