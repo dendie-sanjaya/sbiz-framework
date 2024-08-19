@@ -32,25 +32,24 @@ so  you dont need wasting time for read documentation or learning someting new f
 
 ## Structur Directory
 <pre><code>
-├── config
-    └── config.go
-├── entity
-|   └── *.go
-├── migrate
-|   └── db.go
-    └── seed.go
-├── test
-|    └── *_test.go
-├── main.go
+├── app*
+├── sbiz
+|   └── config
+|       └── config.php
+|       └── route.php    
+|   └── data
+|   └── lang    
+|   └── lib
 └── README.md
 </code></pre>
 
-- Config/config.go  : Place for all global varible configuration 
-- Controller/*.go   : Place for all logic process
-- Entity/*.entiy    : Place for all model like strukur data
-- Migrate/db.go     : Place for auto migration create database and table by reference model  in entity directory
-- Migrate/seed.go   : Place for auto populate date di database
-- Test              : Place for unit test each controller 
+- app*                     : Place name application
+- sbiz/config/config.php   : Place for all define config variable global
+- sbiz/config/config.php   : Place for all define routing 
+- data                     : Place for migration create database and table
+- lang                     : Place for define multiple language
+- lib                      :  place for libray global framework 
+
 
 
 ## Documentation 
