@@ -30,6 +30,28 @@ so  you dont need wasting time for read documentation or learning someting new f
 
 7. Handle Directory List
 
+## Structur Directory
+<pre><code>
+├── config
+    └── config.go
+├── entity
+|   └── *.go
+├── migrate
+|   └── db.go
+    └── seed.go
+├── test
+|    └── *_test.go
+├── main.go
+└── README.md
+</code></pre>
+
+- Config/config.go  : Place for all global varible configuration 
+- Controller/*.go   : Place for all logic process
+- Entity/*.entiy    : Place for all model like strukur data
+- Migrate/db.go     : Place for auto migration create database and table by reference model  in entity directory
+- Migrate/seed.go   : Place for auto populate date di database
+- Test              : Place for unit test each controller 
+
 
 ## Documentation 
 URL : https://dendieisme.blogspot.com/2019/11/sbiz-php-mvc-framework.html
