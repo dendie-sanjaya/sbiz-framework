@@ -14,6 +14,19 @@ This framework is secure, you can using feature security (sanitation input for h
 Eazy, we guaranted yout just need 15 minute to be master using this framework, all function and syntact in this framwork is native php, we no modification syntact php for same purposes, 
 so  you dont need wasting time for read documentation or learning someting new for purpose same (learning curve very low)
 
+## Table of Contents
+- [Introducing](#introducing)
+- [SBiZ Framework Features](#sbiz-framework-features)
+- [Directory Structure](#directory-structure)
+- [Simple Guide](#simple-guide)
+  - [Create URL Config](#1-create-url-config)
+  - [Create URL Route](#2-create-url-route)
+  - [Create Multiple Language](#3-create-multiple-language)
+  - [Lib Global](#4-lib-global)
+  - [Application](#5-application)
+- [Contact](#contact)
+- [License](#license)
+  
 ##  SBiZ Framework have feature
 
 1. Flexibel Routing
