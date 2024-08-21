@@ -43,7 +43,7 @@ so  you dont need wasting time for read documentation or learning someting new f
 
 7. Handle Directory List
 
-## Structur Directory
+## Directory Structure
 <pre><code>
 ├── app*
 ├── sbiz
